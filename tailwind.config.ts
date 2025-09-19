@@ -47,6 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        campus: {
+          primary: "hsl(var(--campus-primary))",
+          secondary: "hsl(var(--campus-secondary))",
+          background: "hsl(var(--campus-background))",
+          surface: "hsl(var(--campus-surface))",
+          muted: "hsl(var(--campus-muted))",
+          text: "hsl(var(--campus-text))",
+          "text-muted": "hsl(var(--campus-text-muted))",
+        },
+        chat: {
+          "user-bg": "hsl(var(--chat-user-bg))",
+          "user-text": "hsl(var(--chat-user-text))",
+          "bot-bg": "hsl(var(--chat-bot-bg))",
+          "bot-text": "hsl(var(--chat-bot-text))",
+          border: "hsl(var(--chat-border))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
